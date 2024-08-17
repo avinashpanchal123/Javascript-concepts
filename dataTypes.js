@@ -48,4 +48,35 @@ let lastName = ' Panchal';
 
 
 let counter = 100;
+console.log(++counter)
 console.log(counter++)
+
+console.log("2" > 1);
+console.log("02" > 1);
+
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+
+// ** comparision operator converts null to a number but equality operator does not
+// ** comparision and equality operators work differently
+
+console.log(undefined == 0);
+console.log(undefined < 0);
+console.log(undefined >= 0);
+
+// strict check
+
+/*
+premitive dataType  ( passed by value)
+ type 7 => String, Number , Boolean , null, undefined, Symbol
+ 
+
+Non-premitive dataType =>
+    
+*/
+
+
+
+
+
