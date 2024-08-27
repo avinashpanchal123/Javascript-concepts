@@ -1,0 +1,90 @@
+1. Node.js Basics:
+What is Node.js, and what are its main features?
+Explain the event-driven architecture of Node.js.
+What is the difference between Node.js and JavaScript in the browser?
+What are the use cases where Node.js is most suitable?
+What is a Node.js process?
+2. Modules and Packages:
+What are modules in Node.js?
+Explain the CommonJS module system.
+What is require, and how does it work?
+What is the module.exports object?
+How do you use ES6 modules (import and export) in Node.js?
+3. Asynchronous Programming:
+Explain the asynchronous nature of Node.js.
+What are callbacks, and how are they used in Node.js?
+What is the callback hell, and how can you avoid it?
+What are Promises, and how do they improve asynchronous code?
+How does async/await work in Node.js?
+4. Event Loop and Streams:
+What is the event loop in Node.js, and how does it work?
+Explain the concept of streams in Node.js.
+What are the different types of streams in Node.js?
+How do you handle backpressure in Node.js streams?
+What is the purpose of the process.nextTick() function?
+5. File System and Buffer:
+How do you interact with the file system in Node.js?
+What is a buffer in Node.js, and why is it used?
+How do you read and write files asynchronously in Node.js?
+What is the difference between synchronous and asynchronous file operations?
+How can you work with binary data in Node.js?
+6. HTTP and Web Servers:
+How do you create an HTTP server in Node.js?
+Explain the purpose of the http and https modules.
+How do you handle requests and responses in a Node.js server?
+What is middleware in the context of Node.js?
+How do you serve static files in Node.js?
+7. Express.js:
+What is Express.js, and how does it relate to Node.js?
+How do you set up routing in an Express application?
+What are middlewares in Express, and how do you use them?
+How do you handle errors in an Express application?
+How do you manage sessions and cookies in Express?
+8. Database Integration:
+How do you connect Node.js with a relational database (e.g., MySQL, PostgreSQL)?
+How do you connect Node.js with a NoSQL database (e.g., MongoDB)?
+What is ORM, and how do you use it in Node.js?
+Explain the difference between Mongoose and the native MongoDB driver.
+How do you handle database migrations in Node.js?
+9. Authentication and Security:
+How do you implement authentication in a Node.js application?
+What is the purpose of JWT (JSON Web Tokens) in authentication?
+How do you secure an Express application?
+What are some common security issues in Node.js, and how do you mitigate them?
+How do you protect against SQL injection in a Node.js application?
+10. Testing and Debugging:
+How do you test a Node.js application?
+What is the purpose of the Mocha testing framework?
+How do you perform unit testing in Node.js?
+How do you handle error logging in Node.js?
+How do you debug a Node.js application?
+11. Deployment and Performance Optimization:
+How do you deploy a Node.js application?
+What are some best practices for scaling a Node.js application?
+How do you optimize the performance of a Node.js application?
+What is clustering in Node.js, and how is it used?
+How do you monitor and maintain a Node.js application in production?
+12. Event Emitters:
+What are event emitters in Node.js?
+How do you create and use an event emitter in Node.js?
+What is the difference between an event emitter and the event loop?
+How do you handle custom events in Node.js?
+What are some use cases for event emitters in Node.js?
+13. API Development:
+How do you create a RESTful API using Node.js?
+How do you handle JSON data in a Node.js application?
+What is CORS, and how do you enable it in a Node.js API?
+How do you manage API versioning in Node.js?
+What is GraphQL, and how does it compare to REST in Node.js?
+14. Node.js Ecosystem and Tools:
+What is npm, and how do you use it?
+What are some common Node.js packages, and what are their uses?
+How do you manage dependencies in a Node.js project?
+What is nvm, and how do you use it to manage Node.js versions?
+How do you use Webpack or Babel in a Node.js project?
+15. Miscellaneous:
+What is the difference between Node.js and Deno?
+How do you handle child processes in Node.js?
+What is the purpose of cluster module in Node.js?
+Explain the concept of microservices in Node.js.
+What are worker threads in Node.js, and when would you use them?
