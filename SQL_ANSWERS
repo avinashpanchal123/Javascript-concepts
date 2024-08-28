@@ -8,3 +8,23 @@ LEFT JOIN
 RIGHT JOIN
 => A RIGHT JOIN returns all records from the right table (orders), and the matched records from the left table (customers).
    If there is no match, the result is NULL from the left side.
+
+What is a Subquery in SQL?
+A subquery is a query within another SQL query. It is also known as an "inner query" or "nested query."
+The subquery can be used to return data that will be used by the main query (or "outer query") as a condition
+to further restrict the data that needs to be retrieved. (further filter the data)
+
+Subqueries are enclosed in parentheses and can be placed in various parts of a SQL statement, 
+such as the SELECT, FROM, WHERE, INSERT, UPDATE, or DELETE clauses.
+
+Types of Subqueries
+There are two main types of subqueries:
+
+Non-Correlated Subquery:
+
+This type of subquery is independent of the outer query. It runs first and then passes the result to the outer query.
+Example: Fetching data based on a static value provided by the subquery.
+Correlated Subquery:
+
+A correlated subquery is dependent on the outer query. It runs once for every row processed by the outer query.
+Example: Fetching data where the subquery references columns from the outer query.
