@@ -1,0 +1,4 @@
+react context =>
+Call useContext at the top level of your component to read and subscribe to context.
+"subscribe" here refers to the automatic re-rendering of the component in response to changes in the context value,
+ensuring the component's UI stays in sync with the latest data.
