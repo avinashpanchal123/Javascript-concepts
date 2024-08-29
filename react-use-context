@@ -1,4 +1,6 @@
 react context =>
+Context is the global object that holds the value you want to share across your component tree.
+***useContext is a React hook that allows you to access the value of a context directly within a functional component.
 Call useContext at the top level of your component to read and subscribe to context.
 "subscribe" here refers to the automatic re-rendering of the component in response to changes in the context value,
 ensuring the component's UI stays in sync with the latest data.
